@@ -13,7 +13,7 @@ gem 'jwt'
 # gem 'concurrent-ruby', require: 'concurrent'
 gem 'sinatra', '~> 2.0.0.beta2'
 group :development do
-  # gem 'rack-unreloader'
+  gem 'rack-unreloader'
   gem 'rubocop'
 end
 
