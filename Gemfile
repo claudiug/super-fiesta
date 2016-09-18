@@ -8,6 +8,8 @@ gem 'sequel'
 gem 'sequel_pg'
 gem 'pg'
 gem 'multi_json'
+gem 'concurrent-ruby', require: 'concurrent'
+
 
 group :development do
   gem 'rack-unreloader'
